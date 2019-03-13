@@ -1,0 +1,222 @@
+body {
+  background: #fbf9f9;
+}
+
+body p {
+  font-size: 13px;
+  color: #aaaaaa;
+}
+
+.header-top {
+  background: #202020;
+  height: 32px;
+  color: #898989;
+  display: flex;
+}
+
+.header-top__time {
+  height: 100%;
+}
+
+.header-top__time i {
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.header-top__time a {
+  font-size: 13px;
+  padding-left: 5px;
+}
+
+.header-top__socials {
+  height: 100%;
+}
+
+.header-top__socials a {
+  font-size: 13px;
+}
+
+.header-top__socials a i {
+  font-size: 13px;
+  width: 36px;
+  text-align: center;
+}
+
+.header-top__socials a i:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.header-top__socials span {
+  color: #898989;
+}
+
+.header-top__login a {
+  margin-right: 5%;
+  margin-left: 5%;
+  color: #aaaaaa;
+}
+
+.header-top__login a i {
+  font-size: 13px;
+}
+
+.header-top__login a:hover {
+  color: #3fb871;
+}
+
+.header {
+  background: url("../../images/hdt.png");
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__logo__name {
+  margin-left: 15px;
+  position: relative;
+}
+
+.header__logo__name__main {
+  font-family: "VNF_Museo Slab";
+  font-size: 54px;
+  color: #3fb871;
+}
+
+.header__logo__name span {
+  font-family: "Shelia VNF Regular";
+  font-size: 70px;
+  color: #3fb871;
+}
+
+.header__logo__name__text {
+  font-size: 20px;
+  margin-top: -27px;
+  position: absolute;
+}
+
+.header__logo__img {
+  padding: 0px;
+}
+
+.header__contact {
+  position: relative;
+}
+
+.header__contact__help {
+  margin-top: 30px;
+  text-align: center;
+  color: #898989;
+}
+
+.header__contact__input {
+  padding: 10px;
+  border-radius: 50px;
+  width: 100%;
+  border: none;
+}
+
+.header__contact__input::placeholder {
+  color: #898989;
+}
+
+.header__contact__input a {
+  float: right;
+}
+
+.header__contact__input a i::before {
+  padding-left: 15px;
+}
+
+.header__contact .search-modified {
+  position: absolute;
+  top: 56%;
+  left: 83%;
+  border-left: 1px solid #aaaaaa;
+  padding-left: 15px;
+  color: #aaaaaa;
+}
+
+.header__card {
+  margin-top: 6%;
+  padding: 0;
+}
+
+.header__card a {
+  color: #202020;
+}
+
+.header__card a:hover {
+  color: #3fb871;
+  text-decoration: none;
+}
+
+.header__card i::before {
+  padding-right: 5px;
+}
+
+.menu {
+  background: #3fb871;
+  text-transform: uppercase;
+}
+
+.menu a {
+  color: #ffffff;
+}
+
+.menu__navbar {
+  width: 100%;
+}
+
+.menu__navbar__name {
+  padding-left: 15px;
+}
+
+.menu__navbar__name li {
+  padding: 5px;
+}
+
+.menu__navbar__name li a {
+  padding: 14px 20px;
+}
+
+.menu__navbar__name li a:hover {
+  color: white;
+}
+
+.menu__navbar__name__dropdown {
+  top: 95%;
+  left: 30%;
+}
+
+.menu__navbar__name__dropdown li:hover {
+  color: #3fb871;
+  background: #3fb871;
+}
+
+.menu__navbar__name__dropdown li a {
+  color: #3fb871;
+  text-decoration: none;
+  padding: 14px 19px;
+}
+
+.menu__navbar__name__dropdown li a:hover {
+  color: white;
+  background: none;
+}
+
+.menu__navbar__name ul.modified {
+  left: 43%;
+}
+
+.menu__toggler {
+  width: 35px;
+}
+
+.menu__toggler__icon {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}

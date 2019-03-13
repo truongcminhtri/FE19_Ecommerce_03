@@ -1,0 +1,184 @@
+.footer {
+  background: #313131;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #898989;
+}
+
+.footer i {
+  color: #898989;
+}
+
+.row {
+  margin: 0;
+}
+
+.footer__content {
+  padding-top: 30px;
+}
+
+.footer__content p.name {
+  text-transform: uppercase;
+}
+
+.footer__content__socials__icon a {
+  color: #898989;
+}
+
+.footer__content__socials__icon a i {
+  padding-right: 25px;
+}
+
+.footer__content__socials__icon a i:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.footer__content__email p {
+  padding-left: 3px;
+}
+
+.footer__content__button__textbox {
+  width: 90%;
+  float: left;
+  padding: 8px;
+}
+
+.footer__content__button i {
+  background: #3fb871;
+  padding: 14px;
+  float: left;
+  color: white;
+}
+
+.footer hr {
+  background: #898989;
+}
+
+.footer__about__title__name {
+  margin: 0;
+  position: relative;
+}
+
+.footer__about__title__name p.main {
+  font-family: "VNF_Museo Slab";
+  font-size: 54px;
+  color: #3fb871;
+}
+
+.footer__about__title__name span {
+  font-family: "Shelia VNF Regular";
+  font-size: 70px;
+  color: #3fb871;
+}
+
+.footer__about__title__name p.text {
+  font-size: 20px;
+  margin-top: 0;
+  position: absolute;
+}
+
+.footer__about__title p {
+  line-height: 28px;
+  margin-top: 4%;
+}
+
+.footer__about__title i {
+  line-height: 34px;
+}
+
+.footer__about__title i a {
+  font-family: "Times New Roman";
+  font-weight: initial;
+}
+
+.footer__about__title i::before {
+  padding-right: 10px;
+  color: #3fb871;
+}
+
+.footer__about__customer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer__about__customer p {
+  color: #3fb871;
+  text-transform: uppercase;
+}
+
+.footer__about__customer ul {
+  padding: 0;
+  line-height: 48px;
+  font-size: 13px;
+}
+
+.footer__about__customer ul li {
+  list-style: none;
+}
+
+.footer__about__customer ul li:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.footer__about__customer ul li i:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.footer__about__customer ul li i::before {
+  padding-right: 4px;
+}
+
+.footer__contact__left {
+  padding: 10px 0px;
+}
+
+.footer__contact__left ul {
+  padding: 0;
+}
+
+.footer__contact__left ul li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.footer__contact__left ul li i {
+  color: #898989;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.footer__contact__left ul li i:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.footer__contact__right {
+  float: right;
+}
+
+.footer__contact__right ul {
+  padding: 10px 10px;
+}
+
+.footer__contact__right ul i {
+  padding-right: 10px;
+  font-size: 18px;
+  color: #898989;
+}
+
+.footer__contact__right ul i:hover {
+  color: #3fb871;
+  cursor: pointer;
+}
+
+.footer .design {
+  background: #434343;
+  color: #898989;
+  justify-content: center;
+}
